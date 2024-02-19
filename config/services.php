@@ -30,4 +30,23 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'facebook' => [
+        'client_id' => '',
+        'client_secret' => '',
+        'redirect' => '',
+
+    ],
+
+    'google' => [
+        'client_id' => '101306031810-hasknppqi38k2dfu0cnertj7q6rre2su.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'https://examplelaravel8.test/google/callback/',
+
+    ],
+
 ];
+
+
+
+//'client_id' => '101306031810-hasknppqi38k2dfu0cnertj7q6rre2su.apps.googleusercontent.com',
+//'client_secret' => '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',
